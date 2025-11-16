@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignSync - Sign to Text</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <div class="translation-page">
+        <a href="translator.html" class="back-button">
+            <i data-feather="arrow-left"></i> Back
+        </a>
+        <h2>Sign Language to Text</h2>
+        <div class="translation-container">
+            <div class="input-section">
+                <div class="video-upload">
+                    <i data-feather="upload-cloud"></i>
+                    <p>Upload or record sign language video</p>
+                </div>
+                <button class="translate-button">Start Recording <i data-feather="video"></i></button>
+            </div>
+            <div class="output-section">
+                <div class="text-output-placeholder">
+                    <p>Translated text will appear here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
